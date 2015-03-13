@@ -2,7 +2,6 @@
 /nester/MANIFEST
 /nester/build/lib/nester.py
 /nester/dist/nester-1.0.0.tar.gz
-/nester/nester.py
 /nester/nester.pyc
 /nester/setup.py
 /venv/bin/activate
