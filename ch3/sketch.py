@@ -44,6 +44,6 @@ if __name__ == '__main__':
             print(' said:', end='')
             print(line_spoken, end='')
         except:
-            raise
+            pass
 
     data.close()
