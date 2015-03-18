@@ -35,4 +35,15 @@ if __name__ == '__main__':
             print(' said:', end='')
             print(line_spoken, end='')
 
+    data.seek(0)
+    #p93 try catch excepion
+    for each_line in data:
+        try:
+            (role, line_spoken) = each_line.split(':')
+            print(role, end='')
+            print(' said:', end='')
+            print(line_spoken, end='')
+        except:
+            raise
+
     data.close()
