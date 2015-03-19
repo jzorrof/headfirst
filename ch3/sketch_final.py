@@ -1,6 +1,7 @@
 __author__ ='Joe_Fan'
 import os
 
+os.chdir('../')
 #not use excaption.
 if os.path.exists('sketch.txt'):
     data= open('sketch.txt')

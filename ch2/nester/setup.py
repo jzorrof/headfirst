@@ -6,7 +6,7 @@ settings
 '''
 setup(
         name = 'nester',
-        version = '1.3.0',
+        version = '1.4.0',
         py_modules = ['nester'],
         author = 'Joe',
         author_email = 'jzorrof@gmail.com',

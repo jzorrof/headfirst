@@ -17,6 +17,7 @@ def close_data():
 
 if __name__ == '__main__':
     #test field#
+    os.chdir("../")
     data = open('sketch.txt')
     print(data.readline(), end='')
     print(data.readline(), end='')
