@@ -47,7 +47,6 @@ except pickle.PickleError as perr:
     print("PickleError:" + str(perr))
 
 #test pickleload
-
 try:
     with open('man_data.txt', 'rb') as man_file:
         new_file = pickle.load(man_file)
